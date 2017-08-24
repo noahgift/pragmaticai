@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "team_cluster <- read_csv(\"~/src/aibook/src/chapter7/data/nba_2017_att_val_elo_win_housing_cluster.csv\", \n                         col_types = cols(X1 = col_skip()))\nlibrary(\"ggplot2\")\n\n#Name Clusters\nteam_cluster$cluster_name[team_cluster$cluster == 0] <- \"Low Valuation/Low Performance\"\nteam_cluster$cluster_name[team_cluster$cluster == 1] <- \"Medium Valuation/High Performance\"\nteam_cluster$cluster_name[team_cluster$cluster == 2] <- \"High Valuation/Low Performance\"\n\n#Create faceted plot\np <- ggplot(data = team_cluster) +\n    geom_point(mapping = aes(x = ELO,\n                             y = VALUE_MILLIONS, \n                             color = factor(WINNING_SEASON, labels=c(\"LOSING\",\"WINNING\")), \n                             size = MEDIAN_HOME_PRICE_COUNTY_MILLIONS,\n                             shape = CONF)) +\n    facet_wrap(~ cluster_name) +\n    ggtitle(\"NBA Teams 2016-2017 Faceted Plot of Valuation of Team and Performance (ELO)\") +\n    ylab(\"Value NBA Team in Millions\") +\n    xlab(\"Relative Team Performance (ELO)\") +\n    geom_text(aes(x = ELO, y = VALUE_MILLIONS, label=ifelse(VALUE_MILLIONS>1200,as.character(TEAM),'')),hjust=.35,vjust=1)    \n\n#Change legends\np + \n    guides(color = guide_legend(title = \"Winning Season\")) +\n    guides(size = guide_legend(title = \"Median Home Price County in Millions\" )) +\n    guides(shape = guide_legend(title = \"NBA Conference\"))\n    \n\n\n\n",
+    "created" : 1502660061653.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3984686596",
+    "id" : "4696B2A7",
+    "lastKnownWriteTime" : 1502665024,
+    "last_content_update" : 1502665024983,
+    "path" : "~/src/aibook/src/chapter7/plot_team_cluster_facets.R",
+    "project_path" : "plot_team_cluster_facets.R",
+    "properties" : {
+        "marks" : "<:0,0\n>:8,-1",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

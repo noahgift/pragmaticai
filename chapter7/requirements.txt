@@ -1,0 +1,17 @@
+#listing 7.2
+ipython
+requests
+python-twitter
+pandas
+pylint
+sensible
+jupyter
+matplotlib
+seaborn
+statsmodels
+sklearn
+wikipedia
+ggplot
+pytest
+nbval
+pylint

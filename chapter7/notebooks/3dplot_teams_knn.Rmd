@@ -1,0 +1,52 @@
+---
+title: "NBA Teams:  3D Plotting of kNN Clustering"
+output: html_notebook
+---
+
+3D plot of NBA teams
+
+```{r}
+library("scatterplot3d", lib.loc="/Library/Frameworks/R.framework/Versions/3.4/Resources/library")
+team_cluster <- read_csv("~/src/aibook/src/chapter7/data/nba_2017_att_val_elo_win_housing_cluster.csv", 
+                         col_types = cols(X1 = col_skip()))
+
+cluster_to_numeric <- function(column){
+    converted_column <- as.numeric(unlist(column))
+    return(converted_column)
+}
+
+team_cluster$pcolor[team_cluster$cluster == 0] <- "red"
+team_cluster$pcolor[team_cluster$cluster == 1] <- "blue"
+team_cluster$pcolor[team_cluster$cluster == 2] <- "darkgreen"
+
+s3d <- scatterplot3d(
+    cluster_to_numeric(team_cluster["VALUE_MILLIONS"]),
+    cluster_to_numeric(team_cluster["MEDIAN_HOME_PRICE_COUNTY_MILLIONS"]),
+    cluster_to_numeric(team_cluster["ELO"]),
+    color = team_cluster$pcolor, 
+    pch=19,
+    type="h", 
+    lty.hplot=2,
+    main="3-D Scatterplot NBA Teams 2016-2017:  Value, Performance, Home Prices with kNN Clustering",
+    zlab="Team Performance (ELO)",
+    xlab="Value of Team in Millions",
+    ylab="Median Home Price County Millions"
+)
+
+s3d.coords <- s3d$xyz.convert(cluster_to_numeric(team_cluster["VALUE_MILLIONS"]),
+                              cluster_to_numeric(team_cluster["MEDIAN_HOME_PRICE_COUNTY_MILLIONS"]),
+                              cluster_to_numeric(team_cluster["ELO"]))
+
+#plot text
+text(s3d.coords$x, s3d.coords$y,     # x and y coordinates
+     labels=team_cluster$TEAM,       # text to plot
+     pos=4, cex=.6)                  # shrink text place to right of points)
+
+
+# add the legend
+legend("topleft", inset=.05,      # location and inset
+       bty="n", cex=.5,              # suppress legend box, shrink text 50%
+       title="Clusters",
+       c("0", "1", "2"), fill=c("red", "blue", "darkgreen"))
+```
+

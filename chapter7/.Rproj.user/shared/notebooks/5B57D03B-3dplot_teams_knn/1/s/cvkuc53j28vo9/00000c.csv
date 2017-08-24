@@ -1,0 +1,5 @@
+"0","# add the legend"
+"0","legend(""topleft"", inset=.05,      # location and inset"
+"0","       bty=""n"", cex=.5,              # suppress legend box, shrink text 50%"
+"0","       title=""Clusters"","
+"0","       c(""0"", ""1"", ""2""), fill=c(""red"", ""blue"", ""darkgreen""))"

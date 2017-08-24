@@ -1,0 +1,31 @@
+TEAM,GMS,PCT_ATTENDANCE,WINNING_SEASON,TOTAL_ATTENDANCE_MILLIONS,VALUE_MILLIONS,ELO,CONF,COUNTY,MEDIAN_HOME_PRICE_COUNTY_MILLIONS,COUNTY_POPULATION_MILLIONS
+Chicago Bulls,41,104,1,0.888882,2500,1519,East,Cook,269900,5.2
+Dallas Mavericks,41,103,0,0.811366,1450,1420,West,Dallas,314990,2.57
+Sacramento Kings,41,101,0,0.721928,1075,1393,West,Sacremento,343950,1.51
+Miami Heat,41,100,1,0.8054,1350,1569,East,Miami-Dade,389000,2.71
+Toronto Raptors,41,100,1,0.81305,1125,1600,East,York-County,390000,1.1
+Los Angeles Clippers,41,100,1,0.782609,2000,1636,West,Los Angeles,625000,10.1
+Cleveland Cavaliers,41,100,1,0.843042,1200,1545,East,Cuyahoga,137500,1.26
+Golden State Warriors,41,100,1,0.803436,2600,1770,West,Alameda,754990,1.5
+Oklahoma City Thunder,41,100,1,0.746323,1025,1543,West,Oklahoma,209556.5,0.78
+New York Knicks,41,100,0,0.810741,3300,1374,East,New York,1725000,1.64
+Boston Celtics,41,100,1,0.76069,2200,1587,East,Suffolk,499000,1.5
+Los Angeles Lakers,41,99,0,0.776917,3000,1367,West,Los Angeles,625000,10.1
+Portland Trail Blazers,41,99,1,0.792029,1050,1563,West,Multnomah,424700,0.79
+San Antonio Spurs,41,99,1,0.755347,1175,1661,West,Bexar,260000,1.89
+Utah Jazz,41,99,1,0.806605,910,1617,West,Salt Lake,352950,1.1
+Orlando Magic,41,94,0,0.727875,920,1352,East,Orange,299900,1.29
+New Orleans Pelicans,41,94,0,0.663099,750,1482,West,Orleans,295000,0.39
+Houston Rockets,41,94,1,0.695903,1650,1602,West,Harris,274455,4.58
+Phoenix Suns,41,94,0,0.708639,1100,1340,West,Maricopa,295000,4.2
+Indiana Pacers,41,92,1,0.684578,880,1526,East,Marion,145000,0.9
+Memphis Grizzlies,41,91,1,0.677314,790,1482,West,Shelby,155000,0.94
+Charlotte Hornets,41,91,0,0.710643,780,1463,East,Mecklenburg,304994.5,1.03
+Philadelphia 76ers,41,85,0,0.710557,800,1338,East,Philadelphia,180000,1.57
+Atlanta Hawks,41,85,1,0.654306,885,1479,East,Fulton,365000,1.01
+Brooklyn Nets,41,85,0,0.632608,1800,1372,East,Kings,780000,2.64
+Milwaukee Bucks,41,85,1,0.648952,785,1502,East,Milwaukee,129900,0.96
+Washington Wizards,41,84,1,0.697107,1000,1587,East,District of Columbia,565950,0.68
+Denver Nuggets,41,77,0,0.605585,890,1552,West,Denver,479000,0.68
+Minnesota Timberwolves,41,77,0,0.607203,770,1463,West,Hennepin,333408,1.22
+Detroit Pistons,41,72,0,0.655141,900,1441,East,Oakland,299990,1.24

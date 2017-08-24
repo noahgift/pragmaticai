@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "player_cluster <- read_csv(\"~/src/aibook/src/chapter7/data/../data/nba_2017_players_social_with_clusters.csv\", \n                         col_types = cols(X1 = col_skip()))\nlibrary(\"ggplot2\")\n\n#Name Clusters\nplayer_cluster$cluster_name[player_cluster$cluster == 0] <- \"Low Pay/Low Performance\"\nplayer_cluster$cluster_name[player_cluster$cluster == 1] <- \"High Pay/Above Average Performance\"\nplayer_cluster$cluster_name[player_cluster$cluster == 2] <- \"Low Pay/Average Performance\"\nplayer_cluster$cluster_name[player_cluster$cluster == 3] <- \"High Pay/High Performance\"\nplayer_cluster$cluster_name[player_cluster$cluster == 4] <- \"Medium Pay/Above Average Performance\"\n\n#Create faceted plot\np <- ggplot(data = player_cluster) +\n    geom_point(mapping = aes(x = WINS_RPM,\n                             y = POINTS, \n                             color = SALARY_MILLIONS, \n                             size = PAGEVIEWS))+\n    facet_wrap(~ cluster_name) +\n    ggtitle(\"NBA Players 2016-2017 Faceted Plot of Social Power and Performance\") +\n    ylab(\"POINTS PER GAME\") +\n    xlab(\"WINS ATTRIBUTABLE TO PLAYER (WINS_RPM)\") + \n    geom_text(aes(x = WINS_RPM, y = POINTS, label=ifelse(PAGEVIEWS>10000|TOV>5|AGE>37|WINS_RPM>15|cluster == 2 & WINS_RPM > 3,\n                                                         as.character(PLAYER),'')),hjust=.8, check_overlap = FALSE)    \n\n#Change legends\np + \n    guides(color = guide_legend(title = \"Salary Millions\")) +\n    guides(size = guide_legend(title = \"Wikipedia Daily Pageviews\" ))+\n    scale_color_gradientn(colours = rainbow(3))\n\n\n\n",
+    "created" : 1502761048705.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3947400670",
+    "id" : "29186122",
+    "lastKnownWriteTime" : 1502764757,
+    "last_content_update" : 1502764757114,
+    "path" : "~/src/aibook/src/chapter7/notebooks/facted_players_knn.R",
+    "project_path" : "notebooks/facted_players_knn.R",
+    "properties" : {
+        "marks" : "<:0,0\n>:30,-1",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

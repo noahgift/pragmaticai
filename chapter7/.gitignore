@@ -1,0 +1,4 @@
+*.Rproj
+*.RData
+.RHistory
+.vscode

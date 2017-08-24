@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "library(\"scatterplot3d\", lib.loc=\"/Library/Frameworks/R.framework/Versions/3.4/Resources/library\")\nteam_cluster <- read_csv(\"~/src/aibook/src/chapter7/data/nba_2017_att_val_elo_win_housing_cluster.csv\", \n                         col_types = cols(X1 = col_skip()))\n\ncluster_to_numeric <- function(column){\n    converted_column <- as.numeric(unlist(column))\n    return(converted_column)\n}\n\nteam_cluster$pcolor[team_cluster$cluster == 0] <- \"red\"\nteam_cluster$pcolor[team_cluster$cluster == 1] <- \"blue\"\nteam_cluster$pcolor[team_cluster$cluster == 2] <- \"darkgreen\"\n\ns3d <- scatterplot3d(\n    cluster_to_numeric(team_cluster[\"VALUE_MILLIONS\"]),\n    cluster_to_numeric(team_cluster[\"MEDIAN_HOME_PRICE_COUNTY_MILLIONS\"]),\n    cluster_to_numeric(team_cluster[\"ELO\"]),\n    color = team_cluster$pcolor, \n    pch=19,\n    type=\"h\", \n    lty.hplot=2,\n    main=\"3-D Scatterplot NBA Teams 2016-2017:  Value, Performance, Home Prices with kNN Clustering\",\n    zlab=\"Team Performance (ELO)\",\n    xlab=\"Value of Team in Millions\",\n    ylab=\"Median Home Price County Millions\"\n)\n\ns3d.coords <- s3d$xyz.convert(cluster_to_numeric(team_cluster[\"VALUE_MILLIONS\"]),\n                              cluster_to_numeric(team_cluster[\"MEDIAN_HOME_PRICE_COUNTY_MILLIONS\"]),\n                              cluster_to_numeric(team_cluster[\"ELO\"]))\n\n#plot text\ntext(s3d.coords$x, s3d.coords$y,     # x and y coordinates\n     labels=team_cluster$TEAM,       # text to plot\n     pos=4, cex=.6)                  # shrink text place to right of points)\n\n\n# add the legend\nlegend(\"topleft\", inset=.05,      # location and inset\n       bty=\"n\", cex=.5,              # suppress legend box, shrink text 50%\n       title=\"Clusters\",\n       c(\"0\", \"1\", \"2\"), fill=c(\"red\", \"blue\", \"darkgreen\"))",
+    "created" : 1502647651346.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4263139046",
+    "id" : "4D5AC77",
+    "lastKnownWriteTime" : 1502656555,
+    "last_content_update" : 1502656555140,
+    "path" : "~/src/aibook/src/chapter7/plot_team_cluster.R",
+    "project_path" : "plot_team_cluster.R",
+    "properties" : {
+        "marks" : "<:1,0\n>:2,58",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

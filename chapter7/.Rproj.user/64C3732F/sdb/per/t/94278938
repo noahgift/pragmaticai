@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1502649396657.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "94278938",
+    "lastKnownWriteTime" : 4362094336,
+    "last_content_update" : 1502649396657,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "605AA883",
+        "caption" : "team_cluster",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=team_cluster&cache_key=605AA883",
+        "displayedObservations" : 30,
+        "environment" : "",
+        "object" : "team_cluster",
+        "preview" : 0,
+        "totalObservations" : 30,
+        "variables" : 13
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

@@ -2,7 +2,10 @@ setup:
 	python3 -m venv ~/.pragai
 
 install:
-	pip install -r requirements.txt
+	(\
+		source ~/.pragai/bin/activate; \
+		pip install -r requirements.txt \
+	)
 
 test:
 	cd chapter7; py.test --nbval-lax notebooks/*.ipynb

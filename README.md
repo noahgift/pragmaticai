@@ -3,14 +3,17 @@
 ![pai](https://user-images.githubusercontent.com/58792/37258262-633deaa6-2532-11e8-8c6f-b020ea1caae5.png)
 
 
-## Pragmatic AI Labs
+## Book Resources
+
+This books was written in partnership with Pragmatic AI Labs.
+
 ![alt text](https://paiml.com/images/logo_with_slogan_white_background.png)
 
 You can continue learning about these topics by:
 
 *   Buying a copy of [Pragmatic AI: An Introduction to Cloud-Based Machine Learning](https://amzn.to/2LFLVEg)
 *   Viewing more content at [noahgift.com](https://noahgift.com/)
-*   Viewing more content at [paiml.com](https://paiml.com/)
+*   Viewing more content at [Pragmatic AI Labs](https://paiml.com/)
 
 ## About
 

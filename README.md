@@ -10,7 +10,7 @@ You can continue learning about these topics by:
 
 *   Buying a copy of [Pragmatic AI: An Introduction to Cloud-Based Machine Learning](https://amzn.to/2LFLVEg)
 *   Viewing more content at [noahgift.com](https://noahgift.com/)
-
+*   Viewing more content at [paiml.com](https://paiml.com/)
 
 ## About
 

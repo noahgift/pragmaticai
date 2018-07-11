@@ -2,9 +2,15 @@
 
 ![pai](https://user-images.githubusercontent.com/58792/37258262-633deaa6-2532-11e8-8c6f-b020ea1caae5.png)
 
-## Book Resources
 
-* [Buy Pragmatic AI](https://www.amazon.com/Pragmatic-AI-Introduction-Cloud-based-Learning/dp/0134863860)
+## Pragmatic AI Labs
+![alt text](https://paiml.com/images/logo_with_slogan_white_background.png)
+
+You can continue learning about these topics by:
+
+*   Buying a copy of [Pragmatic AI: An Introduction to Cloud-Based Machine Learning](https://amzn.to/2LFLVEg)
+*   Viewing more content at [noahgift.com](https://noahgift.com/)
+
 
 ## About
 

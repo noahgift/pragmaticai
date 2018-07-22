@@ -12,7 +12,7 @@ This books was written in partnership with Pragmatic AI Labs.
 You can continue learning about these topics by:
 
 *   Buying a copy of [Pragmatic AI: An Introduction to Cloud-Based Machine Learning](https://amzn.to/2LFLVEg)
-*   Reading book online on Safari [Pragmatic AI: An Introduction to Cloud-Based Machine Learning, First Edition](https://www.safaribooksonline.com/library/view/pragmatic-ai-an/9780134863924/)
+*   Reading book online on Safari: [Online Version of Pragmatic AI: An Introduction to Cloud-Based Machine Learning, First Edition](https://www.safaribooksonline.com/library/view/pragmatic-ai-an/9780134863924/)
 *   Viewing more content at [noahgift.com](https://noahgift.com/)
 *   Viewing more content at [Pragmatic AI Labs](https://paiml.com/)
 *   Exploring related [colab notebooks](https://github.com/noahgift/functional_intro_to_python/blob/master/README.md#safari-online-training--essential-machine-learning-and-exploratory-data-analysis-with-python-and-jupyter-notebook) from Safari Online Training

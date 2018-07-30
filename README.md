@@ -16,6 +16,8 @@ You can continue learning about these topics by:
 *   Viewing more content at [noahgift.com](https://noahgift.com/)
 *   Viewing more content at [Pragmatic AI Labs](https://paiml.com/)
 *   Exploring related [colab notebooks](https://github.com/noahgift/functional_intro_to_python/blob/master/README.md#safari-online-training--essential-machine-learning-and-exploratory-data-analysis-with-python-and-jupyter-notebook) from Safari Online Training
+*   Viewing more content on the [Pragmatic AI Labs YouTube Channel](https://www.youtube.com/channel/UCNDfiL0D1LUeKWAkRE1xO5Q)
+*   Reading content on [Pragmatic AI Medium](https://medium.com/pragmatic-ai-labs)
 *   [Attend an upcoming Safari Live Training](https://www.safaribooksonline.com/search/?query=noah%20gift)
 
 ## About

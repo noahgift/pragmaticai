@@ -13,6 +13,7 @@ You can continue learning about these topics by:
 
 *   Buying a copy of [Pragmatic AI: An Introduction to Cloud-Based Machine Learning](https://amzn.to/2LFLVEg)
 *   Reading book online on Safari: [Online Version of Pragmatic AI: An Introduction to Cloud-Based Machine Learning, First Edition](https://www.safaribooksonline.com/library/view/pragmatic-ai-an/9780134863924/)
+*   Watching 8+ Hour Video Series on Safari: [Essential Machine Learning and AI with Python and Jupyter Notebook](https://www.safaribooksonline.com/videos/essential-machine-learning/9780135261118)
 *   Viewing more content at [noahgift.com](https://noahgift.com/)
 *   Viewing more content at [Pragmatic AI Labs](https://paiml.com/)
 *   Exploring related [colab notebooks](https://github.com/noahgift/functional_intro_to_python/blob/master/README.md#safari-online-training--essential-machine-learning-and-exploratory-data-analysis-with-python-and-jupyter-notebook) from Safari Online Training
@@ -37,6 +38,8 @@ You can continue learning about these topics by:
 * And much more
 
 ## Book Chapter Juypter Notebooks
+
+*Note, it is recommended to also watch companion Video Material: [Essential Machine Learning and AI with Python and Jupyter Notebook](https://www.safaribooksonline.com/videos/essential-machine-learning/9780135261118)*
 
 * [Chapter 1: Introduction to Pragmatic AI](https://github.com/noahgift/functional_intro_to_python/tree/master/notebooks)
 * [Chapter 2:  AI & ML Toolchain](https://github.com/noahgift/pragai-aws)

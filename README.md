@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/99363850.svg)](https://zenodo.org/badge/latestdoi/99363850)
+
 # Pragmatic AI:  An Introduction To Cloud-based Machine Learning
 
 ![pai](https://user-images.githubusercontent.com/58792/37258262-633deaa6-2532-11e8-8c6f-b020ea1caae5.png)

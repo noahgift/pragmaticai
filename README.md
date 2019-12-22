@@ -13,6 +13,7 @@ This books was written in partnership with Pragmatic AI Labs.
 
 You can continue learning about these topics by:
 
+* [Get the latest content and updates from Pragmatic AI Labs:  Subscribe to the mailing list!](https://newsletter.paiml.com/social)
 *   Taking the course [AWS Certified Cloud Practitioner 2020-Real World & Pragmatic](https://www.udemy.com/course/aws-certified-cloud-practitioner-2020-real-world-pragmatic/?referralCode=CAC679A7D08212773428).
 *   Buying a copy of [Pragmatic AI: An Introduction to Cloud-Based Machine Learning](http://www.informit.com/store/pragmatic-ai-an-introduction-to-cloud-based-machine-9780134863863)
 *   Reading book online on Safari: [Online Version of Pragmatic AI: An Introduction to Cloud-Based Machine Learning, First Edition](https://www.safaribooksonline.com/library/view/pragmatic-ai-an/9780134863924/)

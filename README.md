@@ -13,6 +13,41 @@ This books was written in partnership with Pragmatic AI Labs.
 
 You can continue learning about these topics by:
 
+
+##### Foundations of Data Engineering (Specialization:  4 Courses)
+###### Publisher:  Coursera + Duke
+###### Release Date:  4/1/2022
+
+* ![duke-data](https://user-images.githubusercontent.com/58792/159704270-5828242f-16ce-4bc4-b7cd-f8a4489e45ae.png)
+* [Take the Specialization](https://www.coursera.org/specializations/python-bash-sql-data-engineering-duke)
+
+* [Course1: Python and Pandas for Data Engineering](https://www.coursera.org/learn/python-and-pandas-for-data-engineering-duke?specialization=python-bash-sql-data-engineering-duke)
+* [Course2: Linux and Bash for Data Engineering](https://www.coursera.org/learn/linux-and-bash-for-data-engineering-duke?specialization=python-bash-sql-data-engineering-duke)
+* [Course3: Scripting with Python and SQL for Data Engineering](https://www.coursera.org/learn/scripting-with-python-sql-for-data-engineering-duke?specialization=python-bash-sql-data-engineering-duke)
+* [Course4: Web Development and Command-Line Tools in Python for Data Engineering](https://www.coursera.org/learn/web-app-command-line-tools-for-data-engineering-duke?specialization=python-bash-sql-data-engineering-duke)
+
+## Cloud Computing (Specialization:  4 Courses)
+#### Publisher:  Coursera + Duke
+#### Release Date:  4/1/2021
+
+Building Cloud Computing Solutions at Scale Specialization
+Launch Your Career in Cloud Computing. Master strategies and tools to become proficient in developing data science and machine learning (MLOps) solutions in the Cloud
+
+#### What You Will Learn
+
+* Build websites involving serverless technology and virtual machines, using the best practices of DevOps
+* Apply Machine Learning Engineering to build a Flask web application that serves out Machine Learning predictions
+* Create Microservices using technologies like Flask and Kubernetes that are continuously deployed to a Cloud platform: AWS, Azure or GCP
+
+#### Courses in Specialization
+
+* [Take the Specialization](https://www.coursera.org/learn/cloud-computing-foundations-duke?specialization=building-cloud-computing-solutions-at-scale)
+* [Cloud Computing Foundations](https://www.coursera.org/learn/cloud-computing-foundations-duke?specialization=building-cloud-computing-solutions-at-scale)
+* [Cloud Virtualization, Containers and APIs](https://www.coursera.org/learn/cloud-virtualization-containers-api-duke?specialization=building-cloud-computing-solutions-at-scale)
+* [Cloud Data Engineering](https://www.coursera.org/learn/cloud-data-engineering-duke?specialization=building-cloud-computing-solutions-at-scale)
+* [Cloud Machine Learning Engineering and MLOps](https://www.coursera.org/learn/cloud-machine-learning-engineering-mlops-duke?specialization=building-cloud-computing-solutions-at-scale)
+
+
 * [Get the latest content and updates from Pragmatic AI Labs:  Subscribe to the mailing list!](https://newsletter.paiml.com/social)
 *   Taking the course [AWS Certified Cloud Practitioner 2020-Real World & Pragmatic](https://www.udemy.com/course/aws-certified-cloud-practitioner-2020-real-world-pragmatic/?referralCode=CAC679A7D08212773428).
 *   Buying a copy of [Pragmatic AI: An Introduction to Cloud-Based Machine Learning](http://www.informit.com/store/pragmatic-ai-an-introduction-to-cloud-based-machine-9780134863863)

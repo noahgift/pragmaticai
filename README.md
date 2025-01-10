@@ -1,8 +1,27 @@
 [![DOI](https://zenodo.org/badge/99363850.svg)](https://zenodo.org/badge/latestdoi/99363850)
 
+## 🎓 Pragmatic AI Labs | Join 1M+ ML Engineers
+
+### 🔥 Hot Course Offers:
+* 🤖 [Master GenAI Engineering](https://ds500.paiml.com/learn/course/0bbb5/) - Build Production AI Systems
+* 🦀 [Learn Professional Rust](https://ds500.paiml.com/learn/course/g6u1k/) - Industry-Grade Development
+* 📊 [AWS AI & Analytics](https://ds500.paiml.com/learn/course/31si1/) - Scale Your ML in Cloud
+* ⚡ [Production GenAI on AWS](https://ds500.paiml.com/learn/course/ehks1/) - Deploy at Enterprise Scale
+* 🛠️ [Rust DevOps Mastery](https://ds500.paiml.com/learn/course/ex8eu/) - Automate Everything
+
+### 🚀 Level Up Your Career:
+* 💼 [Production ML Program](https://paiml.com) - Complete MLOps & Cloud Mastery
+* 🎯 [Start Learning Now](https://ds500.paiml.com) - Fast-Track Your ML Career
+* 🏢 Trusted by Fortune 500 Teams
+
+Learn end-to-end ML engineering from industry veterans at [PAIML.COM](https://paiml.com)
+
+
 # Pragmatic AI:  An Introduction To Cloud-based Machine Learning
 
 ![pai](https://user-images.githubusercontent.com/58792/37258262-633deaa6-2532-11e8-8c6f-b020ea1caae5.png)
+
+
 
 
 ## Book Resources
